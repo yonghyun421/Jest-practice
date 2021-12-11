@@ -1,0 +1,22 @@
+{
+  "name": "jest-practice",
+  "version": "1.0.0",
+  "description": "Jest Practice Page",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yonghyun421/Jest-practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yonghyun421/Jest-practice/issues"
+  },
+  "homepage": "https://github.com/yonghyun421/Jest-practice#readme",
+  "devDependencies": {
+    "jest": "^27.4.4"
+  }
+}
