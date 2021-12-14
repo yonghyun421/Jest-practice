@@ -32,3 +32,10 @@ toBe 부분에서 사용하는 함수를
 - toBeLessThanOrEqual : 작거나 같다
 - toContain : 배열에 포함되어있는지
 - toThrow : 발생시키는지
+
+## day 3 (fn3.js / fn5.test.js)
+
+- callback
+- promise
+- async/await
+  를 이용해서 만든 비동기 코드를 jest에서 테스트하기
