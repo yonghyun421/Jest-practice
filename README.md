@@ -39,3 +39,13 @@ toBe 부분에서 사용하는 함수를
 - promise
 - async/await
   를 이용해서 만든 비동기 코드를 jest에서 테스트하기
+
+## day 4 (fn7.test.js, fn8.test.js)
+
+- beforeEach : test 전에 초기화
+- afterEach : test 후에 초기화
+- beforeAll : 전체 실행 전
+- afterAll : 전체 실행 후
+
+- test.only : 나머지 test 스킵하고 only가 들어간 test만 단독 실행
+- test.skip : test.only와 반대로 skip 들어간 test만 제외
