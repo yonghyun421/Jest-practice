@@ -49,3 +49,15 @@ toBe 부분에서 사용하는 함수를
 
 - test.only : 나머지 test 스킵하고 only가 들어간 test만 단독 실행
 - test.skip : test.only와 반대로 skip 들어간 test만 제외
+
+## day 5 (fn9, fn10, fn11)
+
+### mockFn
+
+- mock function : 테스트 하기 위해 흉내만 내는 함수
+- mocking module : 실제로 객체가 생성되진 않고 테스트만
+
+- toBeCalled : 한번이라도 호출됐으면 통과
+- toBeCalledTimes : 정확한 호출 횟수
+- toBeCalledWith : 인수로 어떤 값을 받았는지 체크
+- lastCalledWith : 마지막으로 호출된 값의 인수만 체크
